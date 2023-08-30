@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="BackEnd API Suite">
+  <test name="Search User Tests">
+    <parameter name="os.type" value="ANDROID"></parameter>
+    <classes>
+      <class name="com.thescore.pagetests.SearchLeagueTeamPlayerTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

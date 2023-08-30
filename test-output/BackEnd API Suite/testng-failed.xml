@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [BackEnd API Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Search User Tests(failed)">
+    <parameter name="os.type" value="ANDROID"/>
+    <classes>
+      <class name="com.thescore.pagetests.SearchLeagueTeamPlayerTest">
+        <methods>
+          <include name="clickOnLeague"/>
+          <include name="cleanUp"/>
+          <include name="searchLeague"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.thescore.pagetests.SearchLeagueTeamPlayerTest -->
+    </classes>
+  </test> <!-- Search User Tests(failed) -->
+</suite> <!-- Failed suite [BackEnd API Suite] -->

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-30T11:52:08Z" name="BackEnd API Suite" finished-at="2023-08-30T11:54:02Z" duration-ms="113988">
+    <groups>
+    </groups>
+    <test started-at="2023-08-30T11:52:08Z" name="Search User Tests" finished-at="2023-08-30T11:54:02Z" duration-ms="113988">
+      <class name="com.thescore.pagetests.SearchLeagueTeamPlayerTest">
+        <test-method is-config="true" signature="beforeClass(org.testng.ITestContext)[pri:0, instance:com.thescore.pagetests.SearchLeagueTeamPlayerTest@6dbb137d]" started-at="2023-08-30T11:52:08Z" name="beforeClass" finished-at="2023-08-30T11:52:08Z" duration-ms="12" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@757c685d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="searchLeague()[pri:0, instance:com.thescore.pagetests.SearchLeagueTeamPlayerTest@6dbb137d]" started-at="2023-08-30T11:52:08Z" name="searchLeague" finished-at="2023-08-30T11:53:15Z" duration-ms="67258" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchLeague -->
+        <test-method signature="clickOnLeague(java.lang.String)[pri:0, instance:com.thescore.pagetests.SearchLeagueTeamPlayerTest@6dbb137d]" started-at="2023-08-30T11:53:15Z" name="clickOnLeague" data-provider="leagues-data" finished-at="2023-08-30T11:53:23Z" depends-on-methods="com.thescore.pagetests.SearchLeagueTeamPlayerTest.searchLeague" duration-ms="8213" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[NHL]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnLeague -->
+        <test-method signature="clickOnLeague(java.lang.String)[pri:0, instance:com.thescore.pagetests.SearchLeagueTeamPlayerTest@6dbb137d]" started-at="2023-08-30T11:53:23Z" name="clickOnLeague" data-provider="leagues-data" finished-at="2023-08-30T11:53:36Z" depends-on-methods="com.thescore.pagetests.SearchLeagueTeamPlayerTest.searchLeague" duration-ms="12608" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MLB]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnLeague -->
+        <test-method signature="clickOnLeague(java.lang.String)[pri:0, instance:com.thescore.pagetests.SearchLeagueTeamPlayerTest@6dbb137d]" started-at="2023-08-30T11:53:36Z" name="clickOnLeague" data-provider="leagues-data" finished-at="2023-08-30T11:53:47Z" depends-on-methods="com.thescore.pagetests.SearchLeagueTeamPlayerTest.searchLeague" duration-ms="11333" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[NFL]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnLeague -->
+        <test-method signature="clickOnLeague(java.lang.String)[pri:0, instance:com.thescore.pagetests.SearchLeagueTeamPlayerTest@6dbb137d]" started-at="2023-08-30T11:53:47Z" name="clickOnLeague" data-provider="leagues-data" finished-at="2023-08-30T11:53:59Z" depends-on-methods="com.thescore.pagetests.SearchLeagueTeamPlayerTest.searchLeague" duration-ms="12406" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[NCAA Football]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnLeague -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:com.thescore.pagetests.SearchLeagueTeamPlayerTest@6dbb137d]" started-at="2023-08-30T11:53:59Z" name="cleanUp" finished-at="2023-08-30T11:54:02Z" duration-ms="2133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- com.thescore.pagetests.SearchLeagueTeamPlayerTest -->
+    </test> <!-- Search User Tests -->
+  </suite> <!-- BackEnd API Suite -->
+</testng-results>
